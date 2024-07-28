@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.canvas-container {
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+    background-color: gray;
+  }
