@@ -95,7 +95,7 @@ function App() {
     <>
       <div className="canvas-container relative" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
         <h1 ref={headRef} className="text-[40px] py-5  text-center md:text-[70px] font-bold text-white">Spinning Cube</h1>
-        <p className="para text-white font-semibold">Cube of Doom</p>
+        <p className="para text-white font-semibold">Pick a Color</p>
         <Canvas ref={cubeRef}>
           <Scene cubeColor={color} />
         </Canvas>
